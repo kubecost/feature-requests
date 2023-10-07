@@ -31,3 +31,11 @@ The below problem is with the Kubecost API which is a function of the applicatio
 **Expected Behavior**
 
 "I would expect a consistent response."
+
+## Finding the Kubecost version
+
+When reporting a bug with Kubecost, it is imperative to know the version of Kubecost involved. To identify the version, please follow the below steps.
+
+1. Access the Kubecost UI in your browser. You will be taken to the Overview page.
+2. Click on the Settings icon in the bottom left side of the screen.
+3. The version of Kubecost will be displayed under the **Kubecost info** section of the Settings page. In most cases, the API version and UI version will be identical. This is the version which should be used in a bug report.

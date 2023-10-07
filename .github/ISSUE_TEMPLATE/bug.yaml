@@ -11,7 +11,7 @@ body:
     id: kubecost-version
     attributes:
       label: Kubecost Version
-      description: What version of Kubecost are you running? Please provide the version of Kubecost and not the Helm chart version which may or may not be the same.
+      description: What version of Kubecost are you running? Please provide the version of Kubecost and not the Helm chart version which may or may not be the same. See the [issue guidelines document](https://github.com/kubecost/features-bugs/blob/main/ISSUE_GUIDELINES.md#finding-the-kubecost-version) to identify your version of Kubecost.
     validations:
       required: true
   - type: input
